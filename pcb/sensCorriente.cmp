@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = mar 02 sep 2014 20:25:18 ART
+
+BeginCmp
+TimeStamp = /53FF5A7F;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF5A79;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF4B79;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF5228;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF3BDD;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF4A3B;
+Reference = C6;
+ValeurCmp = TBD;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF4A76;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDCFCF;
+Reference = J1;
+ValeurCmp = I_in;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF4B09;
+Reference = J2;
+ValeurCmp = USB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF542D;
+Reference = J3;
+ValeurCmp = SD-CON;
+IdModule  = sdcard;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF4960;
+Reference = P1;
+ValeurCmp = LPCXpresso;
+IdModule  = LPCXpresso;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF55AA;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF55A4;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF559E;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF5598;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF5592;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF5578;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF4A7E;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF4D2A;
+Reference = R8;
+ValeurCmp = 100;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF4F26;
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF4D13;
+Reference = S1;
+ValeurCmp = Display 16x2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF5211;
+Reference = SW1;
+ValeurCmp = CALIB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDCC8B;
+Reference = U1;
+ValeurCmp = ACS713;
+IdModule  = ;
+EndCmp
+
+EndListe
