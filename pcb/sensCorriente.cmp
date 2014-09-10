@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Tue 09 Sep 2014 04:49:01 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = mar 09 sep 2014 21:33:01 ART
 
 BeginCmp
 TimeStamp = /53FF5A7F;
@@ -50,6 +50,34 @@ IdModule  = C1;
 EndCmp
 
 BeginCmp
+TimeStamp = /54065DE6;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54065DF2;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54065DEC;
+Reference = C10;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54065DF8;
+Reference = C11;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
 TimeStamp = /53FDCFCF;
 Reference = J1;
 ValeurCmp = I_in;
@@ -67,7 +95,14 @@ BeginCmp
 TimeStamp = /53FF542D;
 Reference = J3;
 ValeurCmp = SD-CON;
-IdModule  = sdcard;
+IdModule  = SDCARD-REVERSE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5406664E;
+Reference = J4;
+ValeurCmp = DB9F;
+IdModule  = DB9FC;
 EndCmp
 
 BeginCmp
@@ -144,21 +179,28 @@ BeginCmp
 TimeStamp = /53FF4D13;
 Reference = S1;
 ValeurCmp = Display 16x2;
-IdModule  = PLCC52;
+IdModule  = Display16x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53FF5211;
 Reference = SW1;
 ValeurCmp = CALIB;
-IdModule  = SW_SPDT;
+IdModule  = SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53FDCC8B;
 Reference = U1;
 ValeurCmp = ACS713;
-IdModule  = DIP-8__300;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /54065DAA;
+Reference = U2;
+ValeurCmp = MAX232;
+IdModule  = DIP-16__300_ELL;
 EndCmp
 
 EndListe
