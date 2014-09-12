@@ -1,17 +1,12 @@
-update=mar 09 sep 2014 21:27:06 ART
+update=vie 12 sep 2014 16:34:46 ART
 version=1
-last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -52,14 +47,16 @@ LibName32=tb_1x3
 LibName33=tb_1x2
 LibName34=lpcxpresso
 LibName35=sd-con
+LibName36=pot
+LibName37=db9
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=3.000000000000
-PadDrillOvalY=3.000000000000
-PadSizeH=4.000000000000
-PadSizeV=4.000000000000
+PadDrill=3.048000000000
+PadDrillOvalY=3.048000000000
+PadSizeH=3.810000000000
+PadSizeV=3.810000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -72,7 +69,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -91,3 +87,10 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=lpcxpresso
 LibName18=display16x2
+LibName19=db9_shield
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

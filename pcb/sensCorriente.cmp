@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = mar 09 sep 2014 21:33:01 ART
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = vie 12 sep 2014 16:35:41 ART
 
 BeginCmp
 TimeStamp = /53FF5A7F;
@@ -99,10 +99,10 @@ IdModule  = SDCARD-REVERSE;
 EndCmp
 
 BeginCmp
-TimeStamp = /5406664E;
+TimeStamp = /54134B0D;
 Reference = J4;
-ValeurCmp = DB9F;
-IdModule  = DB9FC;
+ValeurCmp = DB9;
+IdModule  = DB9_SHIELD;
 EndCmp
 
 BeginCmp
@@ -169,10 +169,10 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FF4F26;
+TimeStamp = /54134A6D;
 Reference = RV1;
-ValeurCmp = 10k;
-IdModule  = R3;
+ValeurCmp = POT;
+IdModule  = RV2X4;
 EndCmp
 
 BeginCmp

@@ -34,6 +34,8 @@ LIBS:tb_1x3
 LIBS:tb_1x2
 LIBS:lpcxpresso
 LIBS:sd-con
+LIBS:pot
+LIBS:db9
 LIBS:sensCorriente-cache
 EELAYER 27 0
 EELAYER END
@@ -41,7 +43,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Sensor de Corriente"
-Date "3 sep 2014"
+Date "12 sep 2014"
 Rev "0.1"
 Comp "DPLab @ UTN-FRBA"
 Comment1 ""
@@ -417,17 +419,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 4850 6950 4850
 Connection ~ 6900 5250
-$Comp
-L POT RV1
-U 1 1 53FF4F26
-P 6250 5050
-F 0 "RV1" H 6250 4950 50  0000 C CNN
-F 1 "10k" H 6250 5050 50  0000 C CNN
-F 2 "~" H 6250 5050 60  0000 C CNN
-F 3 "~" H 6250 5050 60  0000 C CNN
-	1    6250 5050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6950 5050 6400 5050
 $Comp
@@ -976,17 +967,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 2550 7450 2550
 $Comp
-L DB9 J4
-U 1 1 5406664E
-P 10500 2350
-F 0 "J4" H 10500 2900 70  0000 C CNN
-F 1 "DB9F" H 10300 1800 70  0000 C CNN
-F 2 "~" H 10500 2350 60  0000 C CNN
-F 3 "~" H 10500 2350 60  0000 C CNN
-	1    10500 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR027
 U 1 1 5406665B
 P 10500 3300
@@ -1057,4 +1037,26 @@ Text Label 5000 3650 0    60   ~ 0
 RTS1
 NoConn ~ 5400 2250
 NoConn ~ 5400 2150
+$Comp
+L POT RV1
+U 1 1 54134A6D
+P 6250 5050
+F 0 "RV1" H 6250 4950 50  0000 C CNN
+F 1 "POT" H 6250 5050 50  0000 C CNN
+F 2 "~" H 6250 5050 60  0000 C CNN
+F 3 "~" H 6250 5050 60  0000 C CNN
+	1    6250 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L DB9 J4
+U 1 1 54134B0D
+P 10500 2350
+F 0 "J4" H 10500 2900 70  0000 C CNN
+F 1 "DB9" H 10300 1800 70  0000 C CNN
+F 2 "~" H 10500 2350 60  0000 C CNN
+F 3 "~" H 10500 2350 60  0000 C CNN
+	1    10500 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
