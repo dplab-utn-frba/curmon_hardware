@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = vie 12 sep 2014 16:35:41 ART
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = vie 24 oct 2014 18:00:28 ART
 
 BeginCmp
 TimeStamp = /53FF5A7F;
@@ -95,7 +95,7 @@ BeginCmp
 TimeStamp = /53FF542D;
 Reference = J3;
 ValeurCmp = SD-CON;
-IdModule  = SDCARD-REVERSE;
+IdModule  = SD-CARD;
 EndCmp
 
 BeginCmp
