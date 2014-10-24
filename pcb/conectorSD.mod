@@ -1,0 +1,128 @@
+PCBNEW-LibModule-V1  vie 24 oct 2014 17:49:17 ART
+# encoding utf-8
+Units mm
+$INDEX
+SD-CARD
+$EndINDEX
+$MODULE SD-CARD
+Po 0 0 0 15 544ABADE 00000000 ~~
+Li SD-CARD
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -12.7 1 1 0 0.15 N V 21 N "SD-CARD"
+T1 0 11.43 1 1 0 0.15 N V 21 N "VAL**"
+DS 19.7 -14 0 -14 0.15 21
+DS 28.9 15 23.6 15 0.15 21
+DS 20.8 15 0 15 0.15 21
+DS 0 15 0 14.8 0.15 21
+DS 0 -14 0 -9.5 0.15 21
+DS 28.9 -14 28.9 15 0.15 21
+DS 22.4 -14 28.9 -14 0.15 21
+$PAD
+Sh "3" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "9" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -8.6
+$EndPAD
+$PAD
+Sh "2" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -3.6
+$EndPAD
+$PAD
+Sh "CD" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.9
+$EndPAD
+$PAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 0 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 24.31 -11.3
+$EndPAD
+$PAD
+Sh "5" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 3.9
+$EndPAD
+$PAD
+Sh "4" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.65
+$EndPAD
+$PAD
+Sh "6" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 6.4
+$EndPAD
+$PAD
+Sh "1" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -6.1
+$EndPAD
+$PAD
+Sh "WP" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 13.88
+$EndPAD
+$PAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 0 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 24.31 12.85
+$EndPAD
+$PAD
+Sh "8" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 10.53
+$EndPAD
+$PAD
+Sh "7" R 1.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 8.83
+$EndPAD
+$PAD
+Sh "GND" R 2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 21.01 -14.1
+$EndPAD
+$PAD
+Sh "GND" R 2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 22.21 15
+$EndPAD
+$EndMODULE SD-CARD
+$EndLIBRARY
