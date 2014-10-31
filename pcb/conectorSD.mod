@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  vie 24 oct 2014 17:55:40 ART
+PCBNEW-LibModule-V1  vie 31 oct 2014 15:44:59 ART
 # encoding utf-8
 Units mm
 $INDEX
@@ -942,13 +942,13 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE RV2X4
 $MODULE SD-CARD
-Po 0 0 0 15 544ABADE 00000000 ~~
+Po 0 0 0 15 5453D883 00000000 ~~
 Li SD-CARD
 Sc 0
-AR 
+AR /544AC5A9
 Op 0 0 0
-T0 0 -12.7 1 1 0 0.15 N V 21 N "SD-CARD"
-T1 0 11.43 1 1 0 0.15 N V 21 N "VAL**"
+T0 0 -12.7 1 1 0 0.15 N V 21 N "J3"
+T1 0 11.43 1 1 0 0.15 N V 21 N "CONECTORSD"
 DS 19.7 -14 0 -14 0.15 21
 DS 28.9 15 23.6 15 0.15 21
 DS 20.8 15 0 15 0.15 21
@@ -960,25 +960,25 @@ $PAD
 Sh "3" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "GND"
 Po 0 0
 $EndPAD
 $PAD
 Sh "9" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "N-0000033"
 Po 0 -8.6
 $EndPAD
 $PAD
 Sh "2" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "/SD_MOSI"
 Po 0 -3.6
 $EndPAD
 $PAD
-Sh "CD" R 1.5 1 0 0 0
+Sh "10" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -986,7 +986,7 @@ Po 0 -1.9
 $EndPAD
 $PAD
 Sh "" C 1.5 1.5 0 0 0
-Dr 0 0 0
+Dr 0.762 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
 Po 24.31 -11.3
@@ -995,32 +995,32 @@ $PAD
 Sh "5" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "/SD_CLK"
 Po 0 3.9
 $EndPAD
 $PAD
 Sh "4" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+3.3V"
 Po 0 1.65
 $EndPAD
 $PAD
 Sh "6" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "GND"
 Po 0 6.4
 $EndPAD
 $PAD
 Sh "1" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 5 "/SD_SSEL"
 Po 0 -6.1
 $EndPAD
 $PAD
-Sh "WP" R 1.5 1 0 0 0
+Sh "11" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -1028,7 +1028,7 @@ Po 0 13.88
 $EndPAD
 $PAD
 Sh "" C 1.5 1.5 0 0 0
-Dr 0 0 0
+Dr 0.762 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
 Po 24.31 12.85
@@ -1037,14 +1037,14 @@ $PAD
 Sh "8" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 7 "N-0000026"
 Po 0 10.53
 $EndPAD
 $PAD
 Sh "7" R 1.5 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "/SD_MISO"
 Po 0 8.83
 $EndPAD
 $PAD

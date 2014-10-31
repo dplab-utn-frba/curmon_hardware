@@ -1,4 +1,4 @@
-update=vie 24 oct 2014 18:23:54 ART
+update=vie 31 oct 2014 15:22:24 ART
 version=1
 last_client=eeschema
 [general]
@@ -93,6 +93,4 @@ LibName32=tb_1x3
 LibName33=tb_1x2
 LibName34=lpcxpresso
 LibName35=sd-con
-LibName36=pot
-LibName37=db9
-LibName38=conectorSD
+LibName36=conectorSD

@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Sensor de Corriente"
-Date "24 oct 2014"
+Date "31 oct 2014"
 Rev "0.1"
 Comp "DPLab @ UTN-FRBA"
 Comment1 ""
@@ -714,17 +714,6 @@ Text Label 7450 2550 0    60   ~ 0
 TXD1
 Text Label 7450 2750 0    60   ~ 0
 RXD1
-$Comp
-L GND #PWR027
-U 1 1 5406665B
-P 10550 3200
-F 0 "#PWR027" H 10550 3200 30  0001 C CNN
-F 1 "GND" H 10550 3130 30  0001 C CNN
-F 2 "" H 10550 3200 60  0000 C CNN
-F 3 "" H 10550 3200 60  0000 C CNN
-	1    10550 3200
-	1    0    0    -1  
-$EndComp
 NoConn ~ 10050 2750
 NoConn ~ 10050 2650
 NoConn ~ 10050 2150
@@ -1061,15 +1050,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 2550 7450 2550
 Wire Wire Line
-	10550 3200 10550 3100
-Wire Wire Line
-	10500 3100 10600 3100
-Wire Wire Line
-	10500 3100 10500 3050
-Wire Wire Line
-	10600 3100 10600 3050
-Connection ~ 10550 3100
-Wire Wire Line
 	9350 2550 10050 2550
 Wire Wire Line
 	10050 2350 9850 2350
@@ -1135,10 +1115,10 @@ Connection ~ 2900 6700
 Wire Wire Line
 	2700 7200 2900 7200
 $Comp
-L GND #PWR028
+L GND #PWR027
 U 1 1 544AE3B6
 P 2800 7300
-F 0 "#PWR028" H 2800 7300 30  0001 C CNN
+F 0 "#PWR027" H 2800 7300 30  0001 C CNN
 F 1 "GND" H 2800 7230 30  0001 C CNN
 F 2 "" H 2800 7300 60  0000 C CNN
 F 3 "" H 2800 7300 60  0000 C CNN
@@ -1150,6 +1130,4 @@ Wire Wire Line
 Connection ~ 2800 7200
 Connection ~ 3100 5150
 Connection ~ 2400 5150
-NoConn ~ 10500 3050
-NoConn ~ 10600 3050
 $EndSCHEMATC

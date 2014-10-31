@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = vie 24 oct 2014 18:00:28 ART
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = vie 31 oct 2014 15:23:17 ART
 
 BeginCmp
 TimeStamp = /53FF5A7F;
@@ -78,6 +78,20 @@ IdModule  = C1;
 EndCmp
 
 BeginCmp
+TimeStamp = /544ADCC4;
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /544ADCCA;
+Reference = C13;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
 TimeStamp = /53FDCFCF;
 Reference = J1;
 ValeurCmp = I_in;
@@ -92,9 +106,9 @@ IdModule  = USB_B;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FF542D;
+TimeStamp = /544AC5A9;
 Reference = J3;
-ValeurCmp = SD-CON;
+ValeurCmp = CONECTORSD;
 IdModule  = SD-CARD;
 EndCmp
 
@@ -165,6 +179,20 @@ BeginCmp
 TimeStamp = /53FF4D2A;
 Reference = R8;
 ValeurCmp = 100;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544AC974;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544AC986;
+Reference = R10;
+ValeurCmp = 10k;
 IdModule  = R3;
 EndCmp
 
